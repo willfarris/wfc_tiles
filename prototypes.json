@@ -1,0 +1,180 @@
+{
+    "h": {
+        "char": "═",
+        "valid_neighbors": {
+            "left":[
+                "h",
+                "tl",
+                "bl"
+            ],
+            "right":[
+                "h",
+                "tr",
+                "br"
+            ],
+            "below":[
+                "s",
+		"tl",
+		"tr"
+
+            ],
+            "above":[
+                "s",
+		"bl",
+		"br"
+            ]
+        }
+    },
+    "tl": {
+        "char": "╔",
+        "valid_neighbors": {
+            "left": [
+                "s",
+                "tr",
+                "br"
+            ],
+            "right": [
+                "h",
+                "tr",
+                "br"
+            ],
+            "below": [
+                "v",
+                "br",
+                "bl"
+            ],
+            "above": [
+                "s",
+                "br",
+                "bl"
+            ]
+        }
+    },
+    "tr": {
+        "char": "╗",
+        "valid_neighbors": {
+            "left": [
+                "h",
+                "tl",
+                "bl"
+            ],
+            "right": [
+                "s",
+                "tl",
+                "bl"
+            ],
+            "below": [
+                "v",
+                "br",
+                "bl"
+            ],
+            "above": [
+                "s",
+                "br",
+                "bl"
+            ]
+        }
+    },
+    "bl": {
+        "char": "╚",
+        "valid_neighbors": {
+            "left": [
+                "s",
+                "br",
+                "tr"
+            ],
+            "right": [
+                "h",
+                "br",
+                "tr"
+            ],
+            "below": [
+                "s",
+                "tr",
+                "tl"
+            ],
+            "above": [
+                "v",
+                "tr",
+                "tl"
+            ]
+        }
+    },
+    "br": {
+        "char": "╝",
+        "valid_neighbors": {
+            "left": [
+                "h",
+                "tl",
+                "bl"
+            ],
+            "right": [
+                "s",
+                "tl",
+                "bl"
+            ],
+            "below": [
+                "s",
+                "tr",
+                "tl"
+            ],
+            "above": [
+                "v",
+                "tr",
+                "tl"
+            ]
+        }
+    },
+    "v": {
+        "char": "║",
+        "valid_neighbors": {
+            "left": [
+                "s"
+            ],
+            "right": [
+                "s"
+            ],
+            "below": [
+                "v",
+                "v",
+                "v",
+                "bl",
+                "br"
+            ],
+            "above": [
+                "v",
+                "tl",
+                "tr"
+            ]
+        }
+    },
+    "s": {
+        "char": " ",
+        "valid_neighbors": {
+            "left": [
+                "s",
+                "tr",
+                "br",
+                "v"
+            ],
+            "right": [
+                "s",
+                "tl",
+                "bl",
+                "v"
+            ],
+            "below": [
+                "s",
+                "tr",
+                "tl",
+                "h"
+            ],
+            "above": [
+                "s",
+                "br",
+                "bl",
+                "h"
+            ]
+        }
+    }
+}
