@@ -2,26 +2,25 @@
     "h": {
         "char": "═",
         "valid_neighbors": {
-            "left":[
+            "left": [
                 "h",
                 "tl",
                 "bl"
             ],
-            "right":[
+            "right": [
                 "h",
                 "tr",
                 "br"
             ],
-            "below":[
+            "below": [
                 "s",
-		"tl",
-		"tr"
-
+                "tl",
+                "tr"
             ],
-            "above":[
+            "above": [
                 "s",
-		"bl",
-		"br"
+                "bl",
+                "br"
             ]
         }
     },
